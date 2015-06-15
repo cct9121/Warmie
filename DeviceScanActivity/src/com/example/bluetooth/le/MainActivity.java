@@ -3,6 +3,7 @@ package com.example.bluetooth.le;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
@@ -63,11 +64,32 @@ public class MainActivity extends Activity
             } 
             else 
             {
-            	//if(no data)
-            	Intent i = new Intent();
-                i.setClass(MainActivity.this, ImageActivity.class);
-                MainActivity.this.startActivity(i); 
-                //else goto RecordsActivity
+
+            	SharedPreferences settingsActivity;
+            	settingsActivity = getSharedPreferences("Warmie",0);
+            	//SharedPreferences.Editor editor = settingsActivity.edit();
+            	//editor.clear();
+            	//editor.commit();          	
+            	String name = settingsActivity.getString("NAME","");
+            	Log.d("Check data existed",  name);
+            	
+            	
+            	if( name.isEmpty() )
+            	{
+            		SharedPreferences.Editor editor = settingsActivity.edit();
+                	editor.clear();
+                	editor.commit();           		
+            		Intent i = new Intent();
+                    i.setClass(MainActivity.this, ImageActivity.class);
+                    MainActivity.this.startActivity(i); 
+            	}
+            	else
+            	{
+            		Intent i = new Intent();
+                    i.setClass(MainActivity.this, RecordsActivity.class);
+                    MainActivity.this.startActivity(i); 
+            	}          	
+                
             }
         }
     };

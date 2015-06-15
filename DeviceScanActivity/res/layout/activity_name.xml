@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="19dp"
             android:layout_gravity="center"
-            android:text="小暖保證你的資料是安全的！" />
+            android:text="@string/safe_msg" />
 
         <EditText
             android:id="@+id/editText_name"
@@ -30,9 +30,8 @@
             android:layout_marginTop="44dp"
             android:background="@color/white"
             android:ems="10"
-            android:hint="First &amp; Last Name"
-            android:inputType="textPersonName"
-            android:text="@string/edittext_name" />
+            android:hint="@string/edittext_name"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/editText_email"
@@ -41,9 +40,8 @@
             android:layout_gravity="center"
             android:background="@color/white"
             android:ems="10"
-            android:hint="name@example.com"
-            android:inputType="textEmailAddress"
-            android:text="@string/edittext_email" />
+            android:hint="@string/edittext_email"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editText_pwd"
@@ -52,12 +50,9 @@
             android:layout_gravity="center"
             android:background="@color/white"
             android:ems="10"
-            android:hint="8 characters"
-            android:inputType="textPassword"
-            android:text="@string/edittext_pwd" >
+            android:hint="@string/edittext_pwd"
+            android:inputType="textPassword" />
 
-            <requestFocus />
-        </EditText>
 
         <EditText
             android:id="@+id/editText_birth"
@@ -66,9 +61,8 @@
             android:layout_gravity="center"
             android:background="@color/white"
             android:ems="10"
-            android:hint="Required"
-            android:inputType="date"
-            android:text="@string/edittext_birth" />
+            android:hint="@string/edittext_birth"
+            android:inputType="date" />
 
         <Button
             android:id="@+id/nameb_register_button"

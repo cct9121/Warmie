@@ -286,7 +286,7 @@ public class RecordsActivity extends Activity
             	Fragment_homepage.getcelcius(celcius);
             	
             	//save value       	
-            	settingsActivity_celcius = getSharedPreferences("Warmie_celcius",0);
+            	settingsActivity_celcius = getSharedPreferences("Warmie",0);
             	pastrecordslist = settingsActivity_celcius.getString("Celcius","");          	            	
         		SharedPreferences.Editor editor = settingsActivity_celcius.edit();  		      		
         		editor.putString( pcelcius, pastrecordslist + addrecord);

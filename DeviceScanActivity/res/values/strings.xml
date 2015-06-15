@@ -13,19 +13,25 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
+
+    
 <resources>
     <string name="app_name">Warmie</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="space_day"> 天</string>
-    
+   
+	<!-- ChooseActivity.java -->
     <string name="title_activity_register">RegisterActivity</string>
     <string name="textView1">選擇你的旅程</string>
     <string name="button1">記錄生理期</string>
     <string name="button2">避孕</string>
-    <string name="button3">準備懷孕</string>
-        
+    <string name="button3">準備懷孕</string>       
     <string name="textView2">注意：小暖必須與其他生理生育方法搭配使用</string>
+
+	<!-- BMIActivity.java -->
+	<string name="title_activity_bmi">BMIActivity</string>
     <string name="textView3">讓小暖認識你吧!</string>
     <string name="textView4"> 你的身高體重大約是?</string>
     <string name="bmi_is"> 你的BMI是</string>
@@ -33,7 +39,9 @@
     <string name="bmi1"> too thin.</string>
     <string name="bmi2"> good, keep going.</string>
     <string name="bmi3"> oh no.</string>
-    
+
+	<!-- PeriodActivity.java -->
+	<string name="title_activity_period">PeriodActivity</string>
     <string name="peroid_textView1"> 回憶一下生理週期狀況喔！</string>
     <string name="peroid_textView2"> 平均月經週期？</string>
     <string name="peroid_textView3"> 平均月經經期？</string>
@@ -41,17 +49,19 @@
     <string name="peroid_textView5"> 月經規律嗎？</string>
     <string name="peroid_textView6"> 再一個步驟就完成囉！</string>
     <string name="period_thankmsg"> 謝謝您提供的資訊，小撚要幫妳活得更美更健康！</string>
-    
+
+	<!-- NameActivity.java -->   
+	<string name="title_activity_name">NameActivity</string>
     <string name ="edittext_name">名字</string>
     <string name ="edittext_email">信箱</string>
     <string name ="edittext_pwd">密碼</string>
     <string name ="edittext_birth">生日</string>
-       
-    <string name="title_activity_register_activity1">RegisterActivity1</string>
-    <string name="title_activity_bmi">BMIActivity</string>
-    <string name="title_activity_period">PeriodActivity</string>
-    <string name="title_activity_name">NameActivity</string>
+    <string name = "safe_msg">小暖保證你的資料是安全的！</string>
+         
+	<!-- StartActivity.java -->
     <string name="title_activity_start">StartActivity</string>
+       
+	<!-- RecordsActivity.java -->
     <string name="title_activity_records">我的紀錄</string>
     <string name="warmie_knowledge">小暖知識</string>
     <string name="contact_warmie">聯絡小暖</string>
@@ -71,8 +81,9 @@
     </string-array>
 
     <string name="title_activity_fragment_homepage">Fragment_homepage</string>
+  
     
-    <!-- BLE Strings -->
+	<!-- BLE Strings -->
     <string name="ble_not_supported">BLE is not supported</string>
     <string name="label_data">Data:</string>
     <string name="label_device_address">Device address:</string>

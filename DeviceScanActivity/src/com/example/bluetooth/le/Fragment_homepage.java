@@ -77,7 +77,7 @@ public class Fragment_homepage extends Fragment
 		timeList.add( getString(R.string.records_time) );
 		tempList.add( getString(R.string.records_c) );
 				
-		settingsActivity_celcius = this.getActivity().getSharedPreferences("Warmie_celcius",0);
+		settingsActivity_celcius = this.getActivity().getSharedPreferences("Warmie",0);
 		records = settingsActivity_celcius.getString("Celcius","");
 		Log.d("frg_homepage settingsActivity_celcius",  records );
 		

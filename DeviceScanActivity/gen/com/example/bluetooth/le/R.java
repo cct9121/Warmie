@@ -154,23 +154,23 @@ public final class R {
         /**  BLE Strings 
          */
         public static final int ble_not_supported=0x7f06002b;
-        public static final int bmi1=0x7f06000e;
-        public static final int bmi2=0x7f06000f;
-        public static final int bmi3=0x7f060010;
-        public static final int bmi_is=0x7f06000c;
+        public static final int bmi1=0x7f06000f;
+        public static final int bmi2=0x7f060010;
+        public static final int bmi3=0x7f060011;
+        public static final int bmi_is=0x7f06000d;
         public static final int button1=0x7f060006;
         public static final int button2=0x7f060007;
         public static final int button3=0x7f060008;
         public static final int connected=0x7f060030;
         public static final int contact_warmie=0x7f060023;
         public static final int disconnected=0x7f060031;
-        public static final int dot=0x7f06000d;
+        public static final int dot=0x7f06000e;
         public static final int drawer_close=0x7f060029;
         public static final int drawer_open=0x7f060028;
-        public static final int edittext_birth=0x7f06001b;
-        public static final int edittext_email=0x7f060019;
-        public static final int edittext_name=0x7f060018;
-        public static final int edittext_pwd=0x7f06001a;
+        public static final int edittext_birth=0x7f06001e;
+        public static final int edittext_email=0x7f06001c;
+        public static final int edittext_name=0x7f06001b;
+        public static final int edittext_pwd=0x7f06001d;
         public static final int error_bluetooth_not_supported=0x7f060033;
         public static final int hello_world=0x7f060001;
         public static final int how_to_use_warmie=0x7f060024;
@@ -185,28 +185,40 @@ public final class R {
         public static final int menu_scan=0x7f060039;
         public static final int menu_stop=0x7f06003a;
         public static final int no_data=0x7f06002f;
-        public static final int period_thankmsg=0x7f060017;
-        public static final int peroid_textView1=0x7f060011;
-        public static final int peroid_textView2=0x7f060012;
-        public static final int peroid_textView3=0x7f060013;
-        public static final int peroid_textView4=0x7f060014;
-        public static final int peroid_textView5=0x7f060015;
-        public static final int peroid_textView6=0x7f060016;
+        public static final int period_thankmsg=0x7f060019;
+        public static final int peroid_textView1=0x7f060013;
+        public static final int peroid_textView2=0x7f060014;
+        public static final int peroid_textView3=0x7f060015;
+        public static final int peroid_textView4=0x7f060016;
+        public static final int peroid_textView5=0x7f060017;
+        public static final int peroid_textView6=0x7f060018;
         public static final int records_c=0x7f060027;
         public static final int records_date=0x7f060025;
         public static final int records_time=0x7f060026;
+        public static final int safe_msg=0x7f06001f;
         public static final int space_day=0x7f060003;
         public static final int textView1=0x7f060005;
         public static final int textView2=0x7f060009;
-        public static final int textView3=0x7f06000a;
-        public static final int textView4=0x7f06000b;
-        public static final int title_activity_bmi=0x7f06001d;
+        public static final int textView3=0x7f06000b;
+        public static final int textView4=0x7f06000c;
+        /**  BMIActivity.java 
+         */
+        public static final int title_activity_bmi=0x7f06000a;
         public static final int title_activity_fragment_homepage=0x7f06002a;
-        public static final int title_activity_name=0x7f06001f;
-        public static final int title_activity_period=0x7f06001e;
+        /**  NameActivity.java 
+         */
+        public static final int title_activity_name=0x7f06001a;
+        /**  PeriodActivity.java 
+         */
+        public static final int title_activity_period=0x7f060012;
+        /**  RecordsActivity.java 
+         */
         public static final int title_activity_records=0x7f060021;
+        /**  ChooseActivity.java 
+         */
         public static final int title_activity_register=0x7f060004;
-        public static final int title_activity_register_activity1=0x7f06001c;
+        /**  StartActivity.java 
+         */
         public static final int title_activity_start=0x7f060020;
         public static final int title_devices=0x7f060032;
         public static final int unknown_characteristic=0x7f060035;

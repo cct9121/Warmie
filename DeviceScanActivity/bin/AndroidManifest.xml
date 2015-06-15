@@ -56,10 +56,6 @@ limitations under the License.
             android:label="@string/title_activity_register" >
         </activity>
         <activity
-            android:name="com.example.bluetooth.le.RegisterActivity1"
-            android:label="@string/title_activity_register_activity1" >
-        </activity>
-        <activity
             android:name="com.example.bluetooth.le.BMIActivity"
             android:label="@string/title_activity_bmi" >
         </activity>
