@@ -4,19 +4,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.warmie.MainActivity" >
 
+    
     <ImageView
-        android:id="@+id/imageView_landingpage"
+        android:id="@+id/imageView_landingpagebackground"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-		android:background="@drawable/landingpage"/>
+		android:background="@color/purple"/>
 
-<!--     <Button
-        android:id="@+id/landingpage_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView_landingpage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="120dp"
-        android:text="Button" />
- -->
+	<ImageView
+	    android:id="@+id/imageView_landingpagelogo"
+	    android:layout_width="70dp"
+	    android:layout_height="100dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="70dp"
+	    android:background="@drawable/warmie_logo" />
+
 </RelativeLayout>

@@ -25,30 +25,33 @@
 	<!-- ChooseActivity.java -->
     <string name="title_activity_register">RegisterActivity</string>
     <string name="textView1">選擇你的旅程</string>
-    <string name="button1">記錄生理期</string>
-    <string name="button2">避孕</string>
-    <string name="button3">準備懷孕</string>       
+    <string name="button1_text"> 記錄生理期\n
+        追蹤經期與週期</string>
+    <string name="button2_text">避孕\n
+        觀察排卵期與不易孕期</string>
+    <string name="button3_text">準備懷孕\n
+        更健康且舒服地懷孕</string>       
     <string name="textView2">注意：小暖必須與其他生理生育方法搭配使用</string>
 
 	<!-- BMIActivity.java -->
 	<string name="title_activity_bmi">BMIActivity</string>
     <string name="textView3">讓小暖認識你吧!</string>
-    <string name="textView4"> 你的身高體重大約是?</string>
-    <string name="bmi_is"> 你的BMI是</string>
+    <string name="textView4"> &#160;&#160;你的身高體重大約是?</string>
+    <string name="bmi_is"> &#160;&#160;你的BMI是</string>
     <string name="dot"> 。</string>
-    <string name="bmi1"> too thin.</string>
-    <string name="bmi2"> good, keep going.</string>
-    <string name="bmi3"> oh no.</string>
+    <string name="bmi1"> &#160;&#160;too thin.</string>
+    <string name="bmi2"> &#160;&#160;good, keep going.</string>
+    <string name="bmi3"> &#160;&#160;oh no.</string>
 
 	<!-- PeriodActivity.java -->
 	<string name="title_activity_period">PeriodActivity</string>
     <string name="peroid_textView1"> 回憶一下生理週期狀況喔！</string>
-    <string name="peroid_textView2"> 平均月經週期？</string>
-    <string name="peroid_textView3"> 平均月經經期？</string>
-    <string name="peroid_textView4"> 你的上一次月經是何時？</string>
-    <string name="peroid_textView5"> 月經規律嗎？</string>
-    <string name="peroid_textView6"> 再一個步驟就完成囉！</string>
-    <string name="period_thankmsg"> 謝謝您提供的資訊，小撚要幫妳活得更美更健康！</string>
+    <string name="peroid_textView2"> &#160;&#160;平均月經週期？</string>
+    <string name="peroid_textView3"> &#160;&#160;平均月經經期？</string>
+    <string name="peroid_textView4"> &#160;&#160;你的上一次月經是何時？</string>
+    <string name="peroid_textView5"> &#160;&#160;月經規律嗎？</string>
+    <string name="peroid_textView6"> &#160;&#160;再一個步驟就完成囉！</string>
+    <string name="period_thankmsg"> &#160;&#160;謝謝您提供的資訊，小暖要幫妳活得更美更健康！</string>
 
 	<!-- NameActivity.java -->   
 	<string name="title_activity_name">NameActivity</string>
@@ -60,6 +63,17 @@
          
 	<!-- StartActivity.java -->
     <string name="title_activity_start">StartActivity</string>
+    <string name="name_activity_start">小暖</string>
+    <string name="btn_activity_start">開始囉！</string>
+    <string name="start_msg1">哈囉！感謝您擔任小暖團隊的app測試小幫手與第一批使用者，我們希望幫助女生更瞭解自己的生理週期與排卵狀況。\n\n
+        小暖的基礎體溫的測量步驟非常簡單喔！\n\n
+        1.早上起床將溫度計放入舌下約50~60秒後。\n  
+        2.繼續賴床直到起床為止。\n
+        3.起床後把溫度計放在手機附近並開啟手機藍芽。\n
+        4.溫度數據就會自動同步到app上了。\n\n
+        希望小暖的努力可以讓您的早晨更美好，\n
+        謝謝您！\n</string>
+    <string name="start_msg2">小暖開發團隊敬上\n</string>
        
 	<!-- RecordsActivity.java -->
     <string name="title_activity_records">我的紀錄</string>
@@ -67,9 +81,9 @@
     <string name="contact_warmie">聯絡小暖</string>
     <string name="how_to_use_warmie">使用說明</string>
     
-    <string name="records_date">  日期  </string>
-    <string name="records_time"> 時間 </string>
-    <string name="records_c"> 溫度 </string>
+    <string name="records_date"> &#160;&#160;日期&#160;&#160;</string>
+    <string name="records_time"> &#160;&#160;時間&#160;&#160; </string>
+    <string name="records_c"> &#160;&#160;溫度&#160;&#160; </string>
 
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>

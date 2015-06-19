@@ -17,7 +17,7 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="134dp"
         android:background="@color/peach"
-        android:text="@string/button2"
+        android:text="@string/button2_text"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="20dp"
         android:background="@color/purple"
-        android:text="@string/button1"
+        android:text="@string/button1_text"
         android:textColor="@color/white" />
 
     <Button
@@ -41,7 +41,7 @@
         android:layout_below="@+id/button2"
         android:layout_marginTop="18dp"
         android:background="@color/lightgreen"
-        android:text="@string/button3"
+        android:text="@string/button3_text"
         android:textColor="@color/white" />
 
     <TextView

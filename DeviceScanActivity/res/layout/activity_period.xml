@@ -141,9 +141,10 @@
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="fill_parent"
-                android:layout_height="114dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:gravity="center|top"
+                android:background="@drawable/dialogue_bubble"
+                android:gravity="center|left"
                 android:text="@string/peroid_textView6" />
 
         </LinearLayout>
