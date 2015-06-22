@@ -116,15 +116,15 @@ public class BMIActivity extends Activity
 		b_height = (Button) findViewById(R.id.height);	
 		
 		//if null
-		if( b_weight.getText().equals("- -體重") )
+		if( b_weight.getText().equals( findViewById(R.string.weight_btn_text) ) )
 		{
 			correctdata = false;
 			Toast.makeText( BMIActivity.this, "您忘了輸入體重喔！", Toast.LENGTH_SHORT) .show();	
 		}
-		else if( b_height.getText().equals("- -身高") )
+		else if( b_height.getText().equals( findViewById(R.string.height_btn_text) ) )
 		{
 			correctdata = false;
-			Toast.makeText( BMIActivity.this, "您忘了輸入輸入身高喔！", Toast.LENGTH_SHORT) .show();	
+			Toast.makeText( BMIActivity.this, "您忘了輸入身高喔！", Toast.LENGTH_SHORT) .show();	
 		}
 		
 		return correctdata;		

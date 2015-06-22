@@ -18,7 +18,8 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="19dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:textSize="16sp"
             android:layout_gravity="center"
             android:text="@string/safe_msg" />
@@ -28,7 +29,7 @@
             android:layout_width="240dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="40dp"
             android:background="@color/white"
             android:ems="10"
             android:hint="@string/edittext_name"

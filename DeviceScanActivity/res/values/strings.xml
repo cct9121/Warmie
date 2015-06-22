@@ -36,8 +36,10 @@
 	<!-- BMIActivity.java -->
 	<string name="title_activity_bmi">BMIActivity</string>
     <string name="letwarmieknowyou">讓小暖認識你吧!</string>
-    <string name="yourheightweightis"> &#160;&#160;你的身高體重大約是?</string>
-    <string name="bmi_is"> &#160;&#160;你的BMI是</string>
+    <string name="yourheightweightis"> &#160;&#160;&#160;&#160;你的身高體重大約是?</string>
+    <string name="weight_btn_text"> -&#160;-體重</string>
+    <string name="height_btn_text"> -&#160;-身高</string>
+    <string name="bmi_is"> &#160;&#160;&#160;&#160;你的BMI是</string>
     <string name="dot"> 。</string>
     <string name="bmi1"> &#160;&#160;too thin.</string>
     <string name="bmi2"> &#160;&#160;good, keep going.</string>

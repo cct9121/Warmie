@@ -23,7 +23,6 @@
 		    android:text=""
 		    android:textSize="12dp"
 		    android:textAppearance="?android:attr/textAppearanceLarge" />
-
 	</LinearLayout>
 	
 </LinearLayout>
