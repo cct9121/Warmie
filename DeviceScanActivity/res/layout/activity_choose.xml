@@ -7,66 +7,80 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.warmie.ChooseActivity" >
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" 
+        android:layout_gravity="center"       
+        android:orientation="vertical" >
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"  >
+                   
+	        <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="15dp"		        
+		        android:gravity="center"
+		        android:layout_weight="10"
+		        android:textSize="16sp"
+		        android:text="@string/chooseyourtravel" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_alignRight="@+id/button1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="134dp"
-        android:background="@color/peach"
-        android:text="@string/button2_text"
-        android:textColor="#FFFFFF" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="20dp"
-        android:background="@color/purple"
-        android:text="@string/button1_text"
-        android:textColor="@color/white" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="250dp"
-        android:layout_height="100dp"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignRight="@+id/button2"
-        android:layout_below="@+id/button2"
-        android:layout_marginTop="18dp"
-        android:background="@color/lightgreen"
-        android:text="@string/button3_text"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/textView1" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:text="@string/textView2" />
-
-    <Button
-        android:id="@+id/arrow_button"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/arrow" />
+	        <Button
+	            android:id="@+id/choose_arrow_button"
+	            android:layout_width="30dp"
+	            android:layout_height="30dp"
+	            android:layout_marginTop="15dp"	            
+	            android:layout_gravity="right"
+	            android:scaleType="centerInside" 
+	            android:background="@drawable/arrow" />
+        
+        </LinearLayout>
+        
+	    <Button
+	        android:id="@+id/choose_button1"
+	        android:layout_width="250dp"
+	        android:layout_height="100dp"
+	        android:layout_gravity="center"
+	        android:layout_margin="5dp"
+	        android:background="@color/purple"
+	        android:text="@string/button1_text"
+	        android:gravity="center"
+	        android:textColor="@color/white" />
+	    
+	    <Button
+	        android:id="@+id/choose_button2"
+	        android:layout_width="250dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="5dp"
+	        android:layout_gravity="center"
+	        android:background="@color/peach"
+	        android:text="@string/button2_text"
+	        android:gravity="center"
+	        android:textColor="@color/white" />
+	
+	    <Button
+	        android:id="@+id/choose_button3"
+	        android:layout_width="250dp"
+	        android:layout_height="100dp"
+	        android:layout_margin="5dp"
+	        android:layout_gravity="center"
+	        android:background="@color/lightgreen"
+	        android:text="@string/button3_text"
+	        android:gravity="center"
+	        android:textColor="@color/white" />
+	    
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:text="@string/textView2" />
+    
+    </LinearLayout>
 
 </RelativeLayout>

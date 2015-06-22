@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="@string/textView3" />
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:text="@string/letwarmieknowyou" />
 
     <TextView
         android:id="@+id/textView2"
@@ -26,7 +27,7 @@
         android:layout_marginTop="22dp"
         android:background="@color/lightpurple"
         android:gravity="center|left"
-        android:text="@string/textView4" />
+        android:text="@string/yourheightweightis" />
 
     <Button
         android:id="@+id/height"
@@ -51,6 +52,7 @@
         android:id="@+id/arrow_button1"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:layout_marginTop="15dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:background="@drawable/arrow" />

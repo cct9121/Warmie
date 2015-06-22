@@ -67,9 +67,11 @@ public class MainActivity extends Activity
 
             	SharedPreferences settingsActivity;
             	settingsActivity = getSharedPreferences("Warmie",0);
+            	
             	//SharedPreferences.Editor editor = settingsActivity.edit();
             	//editor.clear();
-            	//editor.commit();          	
+            	//editor.commit();          
+            	
             	String name = settingsActivity.getString("NAME","");
             	Log.d("Check data existed",  name);
             	

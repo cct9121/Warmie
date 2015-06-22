@@ -2,10 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.smallwarm.RecordsActivity" >
 
-    <item android:id="@+id/menu_add"
-          android:title="@string/menu_add"
-          android:orderInCategory="100"
-          android:showAsAction="always"/>
-
+    <group android:id="@+id/records_menu_group"> >
+	    <item android:id="@+id/menu_add"
+	          android:title="@string/menu_add"
+	          android:orderInCategory="100"
+	          android:showAsAction="always"/>
+	</group>
 
 </menu>

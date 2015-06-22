@@ -92,7 +92,8 @@ public class RecordsActivity extends Activity
 	private void initActionBar()
 	{
         getActionBar().setDisplayHomeAsUpEnabled(true);
-        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setHomeButtonEnabled(true);        
+        
     }
 	
 	private void initDrawer()
@@ -190,6 +191,7 @@ public class RecordsActivity extends Activity
 		    case 1:
 		    	setTitle( getString(R.string.warmie_knowledge) );
 		        fragment = new Fragment_knowledge();
+		        Log.d("hide_menu_add","hide_menu_add");
 		        break;
 		        
 		    case 2:
@@ -228,8 +230,16 @@ public class RecordsActivity extends Activity
 	{
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.records, menu);
+	    
+		/*
+		MenuItem item = menu.findItem(R.id.menu_add);
+        item.setVisible(false);
+        this.invalidateOptionsMenu();
+        */
+		
 		return true;
 	}
+	
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) 

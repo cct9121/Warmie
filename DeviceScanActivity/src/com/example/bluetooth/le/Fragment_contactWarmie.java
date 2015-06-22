@@ -12,6 +12,7 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +38,7 @@ public class Fragment_contactWarmie extends Fragment
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) 
 	{
 		View v = inflater.inflate(R.layout.fragment_contactwarmie, container, false);	
+		setHasOptionsMenu(true);
 		return v;	
 	}
 
@@ -70,11 +72,19 @@ public class Fragment_contactWarmie extends Fragment
 			//Toast.makeText(Fragment_contactWarmie.this, "There is no email client installed.", Toast.LENGTH_SHORT).show();
 	 
 		}
-		
-		
-			
+					
 
 	}
+	
+	@Override
+	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) 
+	{
+		// TODO Add your menu entries here
+		menu.setGroupVisible(R.id.records_menu_group, false);
+	}
+	
+	
+	
 		
 	private void returntorecordspage()
 	{

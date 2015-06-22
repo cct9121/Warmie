@@ -24,19 +24,19 @@
    
 	<!-- ChooseActivity.java -->
     <string name="title_activity_register">RegisterActivity</string>
-    <string name="textView1">選擇你的旅程</string>
-    <string name="button1_text"> 記錄生理期\n
+    <string name="chooseyourtravel">選擇妳的旅程</string>
+    <string name="button1_text"> 記錄生理期\n\n
         追蹤經期與週期</string>
-    <string name="button2_text">避孕\n
+    <string name="button2_text">避孕\n\n
         觀察排卵期與不易孕期</string>
-    <string name="button3_text">準備懷孕\n
+    <string name="button3_text">準備懷孕\n\n
         更健康且舒服地懷孕</string>       
-    <string name="textView2">注意：小暖必須與其他生理生育方法搭配使用</string>
+    <string name="textView2">\n注意：小暖必須與其他生理生育方法搭配使用</string>
 
 	<!-- BMIActivity.java -->
 	<string name="title_activity_bmi">BMIActivity</string>
-    <string name="textView3">讓小暖認識你吧!</string>
-    <string name="textView4"> &#160;&#160;你的身高體重大約是?</string>
+    <string name="letwarmieknowyou">讓小暖認識你吧!</string>
+    <string name="yourheightweightis"> &#160;&#160;你的身高體重大約是?</string>
     <string name="bmi_is"> &#160;&#160;你的BMI是</string>
     <string name="dot"> 。</string>
     <string name="bmi1"> &#160;&#160;too thin.</string>
@@ -45,7 +45,7 @@
 
 	<!-- PeriodActivity.java -->
 	<string name="title_activity_period">PeriodActivity</string>
-    <string name="peroid_textView1"> 回憶一下生理週期狀況喔！</string>
+    <string name="peroid_textView1"> 回憶一下生理週期狀況喔！\n</string>
     <string name="peroid_textView2"> &#160;&#160;平均月經週期？</string>
     <string name="peroid_textView3"> &#160;&#160;平均月經經期？</string>
     <string name="peroid_textView4"> &#160;&#160;你的上一次月經是何時？</string>

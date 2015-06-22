@@ -5,6 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.AbsoluteSizeSpan;
+import android.text.style.RelativeSizeSpan;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,10 +32,22 @@ public class ChooseActivity extends Activity
 		getActionBar().hide();
 		setContentView(R.layout.activity_choose);
 		
-		b1 = (Button) findViewById(R.id.button1);
-		b2 = (Button) findViewById(R.id.button2);
-		b3 = (Button) findViewById(R.id.button3);
-		arror_button = (Button) findViewById(R.id.arrow_button);
+		b1 = (Button) findViewById(R.id.choose_button1);		
+		Spannable span1 = new SpannableString( b1.getText() );
+	    span1.setSpan(new RelativeSizeSpan(0.70f), 5, b1.getText().length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+	    b1.setText(span1);
+		
+		b2 = (Button) findViewById(R.id.choose_button2);
+		Spannable span2 = new SpannableString( b2.getText() );
+	    span2.setSpan(new RelativeSizeSpan(0.70f), 2, b2.getText().length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+	    b2.setText(span2);
+	    
+		b3 = (Button) findViewById(R.id.choose_button3);
+		Spannable span3 = new SpannableString( b3.getText() );
+	    span3.setSpan(new RelativeSizeSpan(0.70f), 4, b3.getText().length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+	    b3.setText(span3);
+		
+		arror_button = (Button) findViewById(R.id.choose_arrow_button);
 		
 		arror_button.getBackground().setAlpha(0);
 		arror_button.setEnabled(false);
