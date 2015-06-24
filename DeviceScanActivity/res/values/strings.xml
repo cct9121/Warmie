@@ -41,9 +41,9 @@
     <string name="height_btn_text"> -&#160;-身高</string>
     <string name="bmi_is"> &#160;&#160;&#160;&#160;你的BMI是</string>
     <string name="dot"> 。</string>
-    <string name="bmi1"> &#160;&#160;too thin.</string>
-    <string name="bmi2"> &#160;&#160;good, keep going.</string>
-    <string name="bmi3"> &#160;&#160;oh no.</string>
+    <string name="bmi1"> &#160;&#160;&#160;&#160;too thin.</string>
+    <string name="bmi2"> &#160;&#160;&#160;&#160;good, keep going.</string>
+    <string name="bmi3"> &#160;&#160;&#160;&#160;oh no.</string>
 
 	<!-- PeriodActivity.java -->
 	<string name="title_activity_period">PeriodActivity</string>
@@ -52,8 +52,8 @@
     <string name="peroid_textView3"> &#160;&#160;平均月經經期？</string>
     <string name="peroid_textView4"> &#160;&#160;你的上一次月經是何時？</string>
     <string name="peroid_textView5"> &#160;&#160;月經規律嗎？</string>
-    <string name="peroid_textView6"> &#160;&#160;再一個步驟就完成囉！</string>
-    <string name="period_thankmsg"> &#160;&#160;謝謝您提供的資訊，小暖要幫妳活得更美更健康！</string>
+    <string name="peroid_textView6"> &#160;&#160;&#160;&#160;再一個步驟就完成囉！</string>
+    <string name="period_thankmsg"> &#160;&#160;&#160;&#160;謝謝您提供的資訊，小暖要幫妳活得更美更健康！</string>
 
 	<!-- NameActivity.java -->   
 	<string name="title_activity_name">NameActivity</string>
